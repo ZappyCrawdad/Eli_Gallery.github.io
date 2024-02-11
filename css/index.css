@@ -1,0 +1,14 @@
+/* Restablece márgenes, rellenos y utiliza el modelo de caja border-box para todos los elementos */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvertica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
