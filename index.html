@@ -1,54 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+  <!--Idioma nativo de la pag-->
+  <head>
+    <meta name="Zappy" />
+    <meta content="Galery BETA_1" />
+    <!--Para que no genera basura de texto si no reconoce-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="encabezado" content="valor" />
+    <title>GALERIA</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/gallery.css" />
+    <link rel="stylesheet" href="css/slider.css" />
+    <link rel="stylesheet" href="css/lightbox.css" />
+  </head>
 
-<html lang="es"><!--Idioma nativo de la pag-->
-    <head>
-        <meta name="Zappy">
-        <meta content="Galery BETA_1">
-        <meta charset="UTF-8"><!--Para que no genera basura de texto si no reconoce-->
-        <meta http-equiv="encabezado" content="valor">
-        <title>GALERIA</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="lightbox.css">
-        <link rel="stylesheet" href="SLIDER_RESPONSIVE/style.css">
-    </head>
+  <body>
+    <h1>Eli's Gallery</h1>
 
-    <body>
+    <!--Barra de noticias-->
+    <div class="slider">
+      <div class="container__slider">
+        <ul>
+          <li><img src="images/Slider/banner_GREEN.jpg" alt="" /></li>
+          <li><img src="images/Slider/banner_RED.jpg" alt="" /></li>
+          <li><img src="images/Slider/banner_PINK.jpg" alt="" /></li>
+        </ul>
+      </div>
+    </div>
 
-        <h1>Eli's Gallery</h1>
+    <div class="gallery">
+      <div class="container__gallery">
+        <a
+          href="images/Galery_00/angel_fierien.png"
+          data-lightbox="models"
+          data-title="Fleiren"
+        >
+          <img src="images/Galery_00/angel_fierien.png" alt="No faund" />
+        </a>
 
-        <!--Barra de noticias-->
-        <iframe class="slider" src="SLIDER_RESPONSIVE/slider.html" frameborder="0"></iframe>
+        <a
+          href="images/Galery_00/angel_guin.png"
+          data-lightbox="models"
+          data-title="Angel_guin"
+        >
+          <img src="images/Galery_00/angel_guin.png" alt="No found" />
+        </a>
 
-        <div class="container">
-            <div class="gallery">
+        <a
+          href="images/Galery_00/angel_happy.png"
+          data-lightbox="models"
+          data-title="Angel_feliz"
+        >
+          <img src="images/Galery_00/angel_happy.png" alt="No found" />
+        </a>
 
-                <a href="images/Galery_00/angel_fierien.png" data-lightbox="models" data-title="Fleiren">
-                    <img src="images/Galery_00/angel_fierien.png" alt="No faund">
-                </a>
+        <a
+          href="images/Galery_00/angel_hung.png"
+          data-lightbox="models"
+          data-title="Angel_abrazando"
+        >
+          <img src="images/Galery_00/angel_hung.png" alt="No found" />
+        </a>
 
-                <a href="images/Galery_00/angel_guin.png" data-lightbox="models" data-title="Angel_guin">
-                    <img src="images/Galery_00/angel_guin.png" alt="No found">
-                </a>
+        <a
+          href="images/Galery_00/angel_poses.png"
+          data-lightbox="models"
+          data-title="Angeles_posando"
+        >
+          <img src="images/Galery_00/angel_poses.png" alt="No found" />
+        </a>
 
-                <a href="images/Galery_00/angel_happy.png" data-lightbox="models" data-title="Angel_feliz">
-                    <img src="images/Galery_00/angel_happy.png" alt="No found">
-                </a>
+        <a
+          href="images/Galery_00/Prueba_tam.jpg"
+          data-lightbox="models"
+          data-title="Boceto_con_mochila"
+        >
+          <img src="images/Galery_00/Prueba_tam.jpg" alt="No found" />
+        </a>
+      </div>
+    </div>
 
-                <a href="images/Galery_00/angel_hung.png" data-lightbox="models" data-title="Angel_abrazando">
-                    <img src="images/Galery_00/angel_hung.png" alt="No found">
-                </a>
+    <script src="lightbox-plus-jquery.min.js"></script>
 
-                <a href="images/Galery_00/angel_poses.png" data-lightbox="models" data-title="Angeles_posando">
-                    <img src="images/Galery_00/angel_poses.png" alt="No found">
-                </a>
-
-                <a href="images/Galery_00/Prueba_tam.jpg" data-lightbox="models" data-title="Boceto_con_mochila">
-                    <img src="images/Galery_00/Prueba_tam.jpg" alt="No found">
-                </a>
-
-            </div>
-            
-        </div>
-        <script src="lightbox-plus-jquery.min.js"></script>
-        
-    </body>
+  </body>
 </html>
