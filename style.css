@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvertica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 50px;
+    text-transform: uppercase;
+    
+}
+
+.container {
+    
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 8%;
+}
+
+.gallery {
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+
+.gallery img{
+    
+    width: 100%;
+}
