@@ -1,0 +1,16 @@
+.background-up {
+    text-align: center;
+    width: 100%;
+    display: grid;
+    place-content: center;
+    object-fit: contain;
+    
+}
+
+.imagen-centrada {
+    max-width: auto; /* Ajusta el tamaño máximo de la imagen */
+    height: auto;    /* Mantiene la proporción de aspecto de la imagen */
+    display: inline-block; /* Permite que el contenedor se ajuste al tamaño de la imagen */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que se salga del contenedor */
+    
+}

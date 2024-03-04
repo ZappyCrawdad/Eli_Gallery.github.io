@@ -1,0 +1,57 @@
+/* Configura el contenedor principal para centrar su contenido en la página */
+.slider {
+    width: 100%;
+    display: grid;
+    place-content: center;
+    object-fit: contain;
+}
+
+/* Define las propiedades de cada diapositiva */
+.container__slider {
+    width: 100vw;
+    max-width: 500px; /* 1000px */
+    height: 710px;
+    overflow: hidden;
+    border-radius: 10px ;
+}
+
+/* Ajusta las imágenes dentro de las diapositivas */
+.container__slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px ;
+}
+
+/* Configura la lista dentro de cada diapositiva para la animación de presentación de diapositivas */
+.container__slider ul {
+    display: flex;
+    padding: 0;
+    width: 300%;
+    list-style: none;
+    /* Aplica la animación 'slide' con duración de 15 segundos, repetición infinita y una función de temporización personalizada */
+    animation: slide 15s infinite cubic-bezier(0.055, 0.48, 0.37, 0.92);
+}
+
+/* Define la animación 'slide' mediante @keyframes */
+@keyframes slide {
+    /* En diferentes porcentajes de la animación, ajusta el margen izquierdo para lograr el efecto de presentación de diapositivas */
+    0% {margin-left: 0;}
+    25% {margin-left: 0;}
+
+    30% {margin-left: -100%;}
+    55% {margin-left: -100%;}
+
+    60% {margin-left: -200%;}
+    85% {margin-left: -200%;}
+
+    90% {margin-left: 0%;}
+    100% {margin-left: 0;}
+}
+
+.container__slider {
+    margin-top: 30px;
+    width: 100% !important;
+    height: 100%;
+
+}
