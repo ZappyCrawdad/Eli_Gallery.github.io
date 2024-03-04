@@ -12,3 +12,24 @@ h1 {
     margin-top: 50px;
     text-transform: uppercase;
 }
+
+.Menu{
+    text-align: center;
+    margin-top: 15em;
+    
+}
+
+ul.MenuNav li{
+    list-style: none;
+    padding: 1px;
+    padding-inline: 20px;
+    margin-left:30px;
+    display: inline;
+    padding-right: 1em;
+    width: 100;
+    border: 1px solid #000;
+}
+
+.ManuNav li:hover {
+    background-color: blue;
+}
